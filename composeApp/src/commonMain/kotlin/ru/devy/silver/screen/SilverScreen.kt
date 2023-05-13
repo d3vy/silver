@@ -76,6 +76,7 @@ fun SilverScreen() {
             }
         }
     ) { paddings ->
+
         Column(modifier = Modifier.padding(paddings).fillMaxSize().verticalScroll(rememberScrollState())) {
             HorizontalPager(
                 5,
